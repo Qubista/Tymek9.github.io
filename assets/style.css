@@ -1,0 +1,50 @@
+body {
+    font-size:20px;
+    font-family:monospace, Courier New;
+    background-color:#28064d;
+    color:#dfaaff;
+    letter-spacing:1px;
+}
+
+p1{
+    color:#fff100;
+    font-size:130%;
+}
+p2 {
+    font-size:150%;
+    border:3px solid green;
+}
+pre {
+    font-size: 20px;
+}
+pre.gamez {
+    font-family:Arial, Helvetica, sans-serif;
+}
+h {
+    font-size: 200%;
+}
+.smol {
+    font-size: 100%;
+}
+button {
+    background-color:#f2deff;
+    transition: opacity 0.3s, border-radius 0.3s, padding 0.3s, font-size 0.3s;
+    font-size:130%;
+    border:none;
+    border-radius:3px;
+    padding:5px;
+    margin:10px;
+}
+button:hover {
+    opacity:0.6;
+    border-radius:10px;
+    font-size:100%;
+    padding-top:9px;
+    padding-bottom: 8px;
+    padding-left: 22px;
+    padding-right: 22px;
+
+}
+button:active {
+    opacity:0;
+}
