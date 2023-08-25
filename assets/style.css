@@ -1,43 +1,51 @@
 body {
-    font-size:20px;
+    font-size:1em;
     font-family:monospace, Courier New;
-    background-color:#28064d;
-    color:#dfaaff;
-    letter-spacing:1px;
+    background-color:blueviolet;
+}
+.n {
+    background-color:gray;
+    padding:10px;
+}
+#sans {
+    font-size:1.6em;
+    animation-name: lol;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite ;
+    padding:10px;
+}
+.navbar {
+    list-style-type: none;
+    background-color: gray;
+    margin-top:0px;
+    padding:10px;
+    display:block;
+    overflow:hidden;
+}
+#l1 , #l1 a{
+    color:white;
+    text-decoration:none;
+    display:inline-block;
+    float:left;
+    margin-left:10px;
+    margin-right:10px;
+}
+#l1 a:hover {
+    color:violet;
 }
 
-p1{
-    color:#fff100;
-    font-size:130%;
-}
-p2 {
-    font-size:150%;
-    border:3px solid green;
-}
-pre {
-    font-size: 20px;
-}
-h {
-    font-size: 200%;
-}
-.smol {
-    font-size: 100%;
-}
-button {
-    background-color:#f2deff;
-    transition: opacity 0.3s, border-radius 0.3s, padding 0.3s, font-size 0.3s;
-    font-size:130%;
-    border:none;
-    border-radius:3px;
-    padding:5px;
-    margin:10px;
-    display:block;
-}
-button:hover {
-    opacity:0.6;
-    border-radius:10px;
-    cursor:help;
-}
-button:active {
-    opacity:0;
+@keyframes lol{
+    0%{color:red}
+    10%{color:rgb(255, 123, 0)}
+    20%{color:rgb(251, 255, 0)}
+    30%{color:rgb(140, 255, 0)}
+    40%{color:rgb(0, 211, 120)}
+    50%{color:rgb(0, 173, 216)}
+    60%{color:rgb(0, 115, 255)}
+    70%{color:rgb(140, 0, 255)}
+    80%{color:rgb(194, 0, 204)}
+    90%{color:rgb(255, 0, 140)}
+    100%{color:rgb(255, 0, 0)}
+
 }
