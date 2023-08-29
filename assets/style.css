@@ -34,6 +34,7 @@ main {
     margin-right:10px;
 }
 
+
 .navbar {
     list-style-type: none;
     background-color: gray;
@@ -47,16 +48,20 @@ main {
     margin:20px;
     padding:10px;
 }
+.hsc1 {
+    margin:20px;
+    padding:10px;
+}
 .divh {
     font-size:1.5em;
+}
+.honorlist {
+    list-style-type: none;
 }
 
 
 .divh:hover {
-    animation-name: lol;
-    animation-duration: 10s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite ;
+    text-shadow: 1px 1px 15px white;
 }
 #l1 a:hover {
     color:violet;
@@ -76,5 +81,5 @@ main {
     80%{color:rgb(194, 0, 204)}
     90%{color:rgb(255, 0, 140)}
     100%{color:rgb(255, 0, 0)}
-
 }
+
