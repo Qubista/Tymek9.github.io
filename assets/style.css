@@ -1,12 +1,22 @@
 body {
     font-size:1em;
-    font-family:monospace, Courier New;
+    font-family:monospace, courier;
     background-color:blueviolet;
+    cursor: url('C:/Users/lubie/Documents/GitHub/Tymek9.github.io/Tymek9.github.io/assets/icons/4855-necoarc.png');
 }
+footer {
+    overflow:hidden;
+}
+main { 
+    background-color:rgb(162, 83, 236);
+    border-radius:10px;
+}
+
 .n {
     background-color:gray;
     padding:10px;
 }
+
 #sans {
     font-size:1.6em;
     animation-name: lol;
@@ -14,14 +24,6 @@ body {
     animation-timing-function: linear;
     animation-iteration-count: infinite ;
     padding:10px;
-}
-.navbar {
-    list-style-type: none;
-    background-color: gray;
-    margin-top:0px;
-    padding:10px;
-    display:block;
-    overflow:hidden;
 }
 #l1 , #l1 a{
     color:white;
@@ -31,9 +33,36 @@ body {
     margin-left:10px;
     margin-right:10px;
 }
+
+.navbar {
+    list-style-type: none;
+    background-color: gray;
+    margin-top:0px;
+    padding:10px;
+    display:block;
+    overflow:hidden;
+}
+
+.sc1, .sc2 {
+    margin:20px;
+    padding:10px;
+}
+.divh {
+    font-size:1.5em;
+}
+
+
+.divh:hover {
+    animation-name: lol;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite ;
+}
 #l1 a:hover {
     color:violet;
 }
+
+
 
 @keyframes lol{
     0%{color:red}
