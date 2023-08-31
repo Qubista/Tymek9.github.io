@@ -1,5 +1,5 @@
 body {
-    font-size:20px;
+    font-size:1em;
     font-family:monospace, courier;
     background-color:blueviolet;
     cursor: url('C:/Users/lubie/Documents/GitHub/Tymek9.github.io/Tymek9.github.io/assets/icons/4855-necoarc.png');
@@ -12,10 +12,7 @@ main {
     border-radius:10px;
 }
 
-.n {
-    background-color:gray;
-    padding:10px;
-}
+
 
 #sans {
     font-size:1.6em;
@@ -33,20 +30,38 @@ main {
     margin-left:10px;
     margin-right:10px;
 }
+#sc1, #sc2, #sc3, #sc4, #sc5 {
+    margin:20px;
+    padding:10px;
+    transition: all 0.3s; 
+}
+#l2 , #l2 a {
+    text-decoration:none;
+    display:inline-block;
+    float:left;
+    margin-left:10px;
+    margin-right:10px;
+    color:lavender;
+}
 
 
+.n {
+    background-color:gray;
+    padding:10px;
+}
 .navbar {
     list-style-type: none;
     background-color: gray;
     margin-top:0px;
+    margin-bottom:0px;
     padding:10px;
     display:block;
     overflow:hidden;
 }
-
-.sc1, .sc2 {
-    margin:20px;
-    padding:10px;
+.l3 a {
+    color:black;
+    text-decoration: none;
+    transition: all 1s;
 }
 .hsc1 {
     margin:20px;
@@ -54,6 +69,7 @@ main {
 }
 .divh {
     font-size:1.5em;
+    transition: all 0.3s;   
 }
 .honorlist {
     list-style-type: none;
@@ -61,12 +77,17 @@ main {
 
 
 .divh:hover {
-    text-shadow: 1px 1px 15px white;
+    color:forestgreen;
 }
 #l1 a:hover {
     color:violet;
 }
-
+#l2 a:hover {
+    color:rgb(191, 191, 206);
+}
+.l3 a:hover {
+    color:white;
+}
 
 
 @keyframes lol{
