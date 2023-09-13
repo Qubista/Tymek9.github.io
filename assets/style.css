@@ -1,15 +1,20 @@
 body {
     font-size:1em;
     font-family:monospace, courier;
-    background-color:blueviolet;
+    background-color:#000000;
     cursor: url('C:/Users/lubie/Documents/GitHub/Tymek9.github.io/Tymek9.github.io/assets/icons/4855-necoarc.png');
+    color:white;
 }
-footer {
+footer > .n {
     overflow:hidden;
 }
 main { 
-    background-color:rgb(162, 83, 236);
-    border-radius:10px;
+    background-color:#52057B;
+    border-radius:20px 0 20px 0;
+}
+i {
+    color:white;
+    transition: all 0.5s;
 }
 
 
@@ -26,7 +31,6 @@ main {
     color:white;
     text-decoration:none;
     display:inline-block;
-    float:left;
     margin-left:10px;
     margin-right:10px;
 }
@@ -38,30 +42,32 @@ main {
 #l2 , #l2 a {
     text-decoration:none;
     display:inline-block;
-    float:left;
     margin-left:10px;
     margin-right:10px;
-    color:lavender;
+    color:white;
 }
 
 
 .n {
-    background-color:gray;
+    background-color:#892CDC;
     padding:10px;
+    border-radius:10px 0 10px 0;
 }
 .navbar {
     list-style-type: none;
-    background-color: gray;
+    background-color: #892CDC;
     margin-top:0px;
     margin-bottom:0px;
     padding:10px;
     display:block;
     overflow:hidden;
+    border-radius:0 0 10px 0;
 }
-.l3 a {
-    color:black;
+.l3 a, .l3 {
+    color:white;
     text-decoration: none;
     transition: all 1s;
+    display:block;
 }
 .hsc1 {
     margin:20px;
@@ -74,19 +80,40 @@ main {
 .honorlist {
     list-style-type: none;
 }
+.accs {
+    background-color: #5e088c;
+    border:2px solid black;
+    width:2%;
+    text-align: center;
+    float:right;
+    border-radius: 20px 0 0 0;
+}
+.acc {
+    margin-bottom:10px;
+    margin-top:10px;
+    display:inline-block;
+}
 
 
 .divh:hover {
-    color:forestgreen;
+    color:#BC6FF1;
 }
 #l1 a:hover {
-    color:violet;
+    color:#BC6FF1;
 }
 #l2 a:hover {
-    color:rgb(191, 191, 206);
+    color:#BC6FF1;
 }
-.l3 a:hover {
-    color:white;
+.l3:hover, .l3 a:hover {
+    color:#BC6FF1;
+    cursor:pointer;
+}
+.acc:hover {
+    cursor:pointer;
+
+}
+i:hover {
+        color:#BC6FF1;
 }
 
 
