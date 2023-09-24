@@ -90,6 +90,10 @@ visibility: hidden;
     text-align: center;
     float:right;
     border-radius: 20px 0 0 0;
+    animation-name: kont;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite ;
 }
 .acc {
     margin-bottom:10px;
@@ -134,3 +138,6 @@ i:hover {
     100%{color:rgb(255, 0, 0)}
 }
 
+@keyframes kont{
+    50%{background-color:rgb(125, 50, 195)}
+}

@@ -36,11 +36,11 @@ document.getElementById("kolor").onclick = function() {
         document.getElementById("bd").style.color = "white";
         document.getElementById("navbar").style.backgroundColor = "#892CDC";
         document.getElementById("main").style.backgroundColor = "#512B81";
+        document.getElementById("bd").style.backgroundImage = "none"
         aktolor = 0;
     }
     console.log(aktolor)
 }
-
 //#FF9B50
 //#E25E3E
 //#C63D2F
